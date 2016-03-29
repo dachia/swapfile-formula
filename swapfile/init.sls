@@ -1,4 +1,4 @@
-{% from "swapfile/map.jinja" import conf with context %}
+{%from "swapfile/map.jinja" import conf with context %}
 
 {{ conf.swapfile }}:
   file.append:
